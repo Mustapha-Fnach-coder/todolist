@@ -1,0 +1,49 @@
+/* Styles généraux pour la page */
+body {
+    background-color: #f8f9fa; /* Couleur de fond douce */
+  }
+  
+  /* Titre */
+  h1 {
+    font-size: 2.5rem;
+    color: #333; /* Couleur du texte */
+  }
+  
+  /* Conteneur d'input pour l'ajout de tâche */
+  .input-container {
+    margin-bottom: 20px; /* Espace en bas du conteneur */
+  }
+  
+  /* Styles pour les cartes de tâche */
+  .card {
+    transition: transform 0.2s; /* Animation douce lors du survol */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Agrandit la carte au survol */
+  }
+  
+  /* Boutons */
+  .btn-success {
+    background-color: #28a745; /* Couleur de fond pour le bouton Ajouter */
+  }
+  
+  .btn-success:hover {
+    background-color: #218838; /* Couleur au survol */
+  }
+  
+  .btn-danger {
+    background-color: #dc3545; /* Couleur de fond pour le bouton Supprimer */
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333; /* Couleur au survol */
+  }
+  
+  /* Styles pour la grille de cartes */
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Deux colonnes */
+    gap: 20px; /* Espace entre les cartes */
+  }
+  
